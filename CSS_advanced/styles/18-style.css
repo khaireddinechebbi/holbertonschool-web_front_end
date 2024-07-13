@@ -491,6 +491,7 @@ a:active {
 
 .navbar-menu {
     float: right;
+    padding: calc(0.5 * 1rem) calc(1 * 1rem);
 }
 
 .nav {
