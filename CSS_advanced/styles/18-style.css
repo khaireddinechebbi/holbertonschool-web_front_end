@@ -494,9 +494,9 @@ a:active {
 }
 
 .nav {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-align: center;
 }
 
@@ -511,7 +511,7 @@ a:active {
 
 .nav-link {
     display: block;
-    padding: calc(0.5 * 1rem) calc(1 * 1rem) calc(1 * 1rem) calc(1 * 1rem);
+    padding: calc(0.5 * 1rem) calc(1 * 1rem);
 }
 
 .nav-link:hover {
