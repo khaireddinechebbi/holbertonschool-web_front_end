@@ -272,13 +272,15 @@ ul.row {
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
+    transition: var(--transition-duration);
 }
 
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
-    transition-duration: color var(--transition-duration), background-color var(--transition-duration);
+    transition: var(--transition-duration);
+    transition: color var(--transition-duration), background-color var(--transition-duration);
 }
 
 .card-testimonial {
@@ -334,6 +336,7 @@ ul.row {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
@@ -392,6 +395,7 @@ ul.row {
 
 .card-work:hover .card-image {
     scale: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
